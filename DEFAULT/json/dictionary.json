@@ -1,0 +1,1446 @@
+{
+	"web": {
+		"BasePage": {
+			"loading": {
+				"locator": "xpath",
+				"value": "//div[contains(@class, 'sapMBusyDialog')]"
+			}
+		},
+		"HomePage": {
+			"btnManagePendingRequests": {
+				"locator": "xpath",
+				"value": "//h3[text()='Manage Pending Requests']/parent::div/parent::div/parent::div/parent::div"
+			},
+			"btnTimeOff": {
+				"locator": "xpath",
+				"value": "//h3[text()='Time Off']/parent::div/parent::div/parent::div/parent::div"
+			}
+		},
+		"LoginPage": {
+			"txtUsername": {
+				"locator": "name",
+				"value": "username"
+			},
+			"txtPassword": {
+				"locator": "name",
+				"value": "password"
+			},
+			"btnLogin": {
+				"locator": "id",
+				"value": "__button2-BDI-content"
+			}
+		},
+		"AdminCenterPage": {
+			"txtSerachFor": {
+				"locator": "id",
+				"value": "bizXSearchField-I"
+			},
+			"btnHeaderDropdown": {
+				"locator": "id",
+				"value": "customHeaderModulePickerBtn"
+			},
+			"optHeaderDropdown": {
+				"locator": "xpath",
+				"value": "//a[text()='%1']"
+			},
+			"userArrowDown": {
+				"locator": "xpath",
+				"value": "//div[contains(@class, 'surjUserPhotoName')]"
+			},
+			"optProxyNow": {
+				"locator": "xpath",
+				"value": "//ul/descendant::a[text()='Proxy Now']"
+			},
+			"btnHome": {
+				"locator": "xpath",
+				"value": "//*[@id='__image0']"
+			}
+		},
+		"ChangeJobAndCompensationInfoPage": {
+			"btnProceed": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Proceed']"
+			},
+			"lblRangePenetration": {
+				"locator": "xpath",
+				"value": "//*[@id=''__label186-bdi']"
+			},
+			"comboPosition": {
+				"locator": "xpath",
+				"value": "//span[text()='Position Information']//ancestor::div[4]//descendant::div[5]//descendant::div[9]//descendant::input"
+			},
+			"arrowComboPosition": {
+				"locator": "xpath",
+				"value": "//span[@title='Position']/parent::div/following-sibling::div/div/div/div/div/div"
+			},
+			"comboTimeZone": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Timezone']/ancestor::div[2]/descendant::input"
+			},
+			"comboEmployeeClass": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Employee Class']/ancestor::div[2]/descendant::input"
+			},
+			"comboEmploymentType": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Employment Type']/ancestor::div[2]/descendant::input"
+			},
+			"comboIsFulltimeEmployee": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Is Fulltime Employee']/ancestor::div[2]/descendant::input"
+			},
+			"chkCompensationInformation": {
+				"locator": "xpath",
+				"value": "//div[@title='Compensation Information']/div"
+			},
+			"txtAmount": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Amount']/ancestor::table/descendant::tr/td[3]/descendant::input"
+			},
+			"txtPayGrade": {
+				"locator": "xpath",
+				"value": "//div[contains(@title, 'Salary Grade')]/div/input"
+			},
+			"txtJobClassification": {
+				"locator": "xpath",
+				"value": "//bdi[contains(text(),'Job Cla')]/parent::span/parent::div/following-sibling::div/descendant::input"
+			},
+			"txtDivision": {
+				"locator": "xpath",
+				"value": "//span[@title='Division']/parent::div/following-sibling::div/descendant::input"
+			},
+			"txtDepartment": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Pay Grade']/parent::span/parent::span/parent::div/following-sibling::div/descendant::input"
+			},
+			"txtPayGradeOld": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Pay Grade']/parent::span/parent::div/following-sibling::div/span/span"
+			},
+			"txtDivisionOld": {
+				"locator": "xpath",
+				"value": "//span[@title='Division']/parent::div/following-sibling::div/span/span"
+			},
+			"txtDepartmentOld": {
+				"locator": "xpath",
+				"value": "//span[@title='Department']/parent::div/following-sibling::div/span/span"
+			},
+			"txtLocationOld": {
+				"locator": "xpath",
+				"value": "//bdi[contains(text(),'Loca')]/parent::span/parent::div/following-sibling::div/span/span"
+			},
+			"txtTimeRecordingVariant": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Time Recording Variant']/ancestor::div/div/div/div/div/input"
+			},
+			"txtTimeProfile": {
+				"locator": "xpath",
+				"value": "//span[@title='Time Profile']/parent::div/parent::div//input"
+			},
+			"lblChangeJogAndCompensationInfo": {
+				"locator": "xpath",
+				"value": "//span[text()='Change Job and Compensation Info']"
+			},
+			"chkJobInformation": {
+				"locator": "xpath",
+				"value": "//div[@title='Job Information']/div"
+			},
+			"txtDateWillChangeEffect": {
+				"locator": "xpath",
+				"value": "//bdi[text()='When would you like your changes to take effect?']/parent::span/parent::label/parent::div/parent::div/parent::div//input"
+			},
+			"txtLocation": {
+				"locator": "xpath",
+				"value": "//bdi[contains(text(),'Loca')]/parent::span/parent::span/../../div/div/div/input"
+			},
+			"txtJobTitle": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Job Title']/parent::span/parent::div/following-sibling::div/descendant::input"
+			},
+			"btnSave": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Save']"
+			},
+			"btnAddCompensation": {
+				"locator": "xpath",
+				"value": "//span[text()='Compensation']/parent::div/parent::div/parent::div/parent::div/descendant::bdi[text()='Add']"
+			},
+			"txtAddPayComponentCompensation": {
+				"locator": "xpath",
+				"value": "//span[text()='Compensation']/parent::div/parent::div/parent::div/parent::div/descendant::tbody/tr[not(contains(@id,'sub'))][last()]/descendant::input[position()=1]"
+			},
+			"txtAddAmountCompensation": {
+				"locator": "xpath",
+				"value": "//span[text()='Compensation']/parent::div/parent::div/parent::div/parent::div/descendant::tbody/tr[not(contains(@id,'sub'))][last()]/descendant::input[position()=2]"
+			},
+			"txtAddCurrencyCompensation": {
+				"locator": "xpath",
+				"value": "//span[text()='Compensation']/parent::div/parent::div/parent::div/parent::div/descendant::tbody/tr[not(contains(@id,'sub'))][last()]/descendant::input[position()=3]"
+			},
+			"txtAddFrequencyCompensation": {
+				"locator": "xpath",
+				"value": "//span[text()='Compensation']/parent::div/parent::div/parent::div/parent::div/descendant::tbody/tr[not(contains(@id,'sub'))][last()]/descendant::input[position()=4]"
+			},
+			"alertChangeSuccefulySavedCompensation": {
+				"locator": "xpath",
+				"value": "//div[@role='alert']"
+			},
+			"txtPayGroup": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Pay Group']/parent::span/parent::span/parent::div/parent::div/descendant::input"
+			},
+			"btnAddRecurring": {
+				"locator": "xpath",
+				"value": "//span[text()='Recurring Payments and Deductions']/parent::div/parent::div/parent::div/parent::div/descendant::bdi[text()='Add']"
+			},
+			"txtAddPayComponentRecurring": {
+				"locator": "xpath",
+				"value": "//span[text()='Recurring Payments and Deductions']/parent::div/parent::div/parent::div/parent::div/descendant::tbody/tr[not(contains(@id,'sub'))][last()]/descendant::input[position()=1]"
+			},
+			"txtAddAmountRecurring": {
+				"locator": "xpath",
+				"value": "//span[text()='Recurring Payments and Deductions']/parent::div/parent::div/parent::div/parent::div/descendant::tbody/tr[not(contains(@id,'sub'))][last()]/descendant::input[position()=2]"
+			},
+			"txtAddCurrencyRecurring": {
+				"locator": "xpath",
+				"value": "//span[text()='Recurring Payments and Deductions']/parent::div/parent::div/parent::div/parent::div/descendant::tbody/tr[not(contains(@id,'sub'))][last()]/descendant::input[position()=3]"
+			},
+			"txtAddFrequencyRecurring": {
+				"locator": "xpath",
+				"value": "//span[text()='Recurring Payments and Deductions']/parent::div/parent::div/parent::div/parent::div/descendant::tbody/tr[not(contains(@id,'sub'))][last()]/descendant::input[position()=4]"
+			},
+			"btnViewOrgChart": {
+				"locator": "xpath",
+				"value": "//span[@title='Position']/parent::div/following-sibling::div/div/div/button"
+			},
+			"btnViewOrgChartUpOneLevel": {
+				"locator": "xpath",
+				"value": "//a[text()='Up One Level']"
+			},
+			"lblPositionAbove": {
+				"locator": "xpath",
+				"value": "//div[@class='nodeContainer subContainer']/div/div/div/div/a/div/div/span"
+			},
+			"btnClose": {
+				"locator": "xpath",
+				"value": "//button[text()='Close']"
+			},
+			"lblOldLocation": {
+				"locator": "xpath",
+				"value": "//span[@title='Location']/parent::div/parent::div//span[contains(@title,'Old value of changed field')]"
+			}
+		},
+		"ChangeHistoryPage": {
+			"btnClose": {
+				"locator": "xpath",
+				"value": "//span[text()='Change History']/ancestor::div/descendant::header/descendant::button"
+			},
+			"btnEdit": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Edit']"
+			},
+			"btnEdit2": {
+				"locator": "xpath",
+				"value": "//*[@id='__button92-BDI-content']"
+			},
+			"lblChangeHistory": {
+				"locator": "xpath",
+				"value": "//span[contains(text(),'%1')]/parent::div/parent::div/following-sibling::div/descendant::div/descendant::span[contains(text(),'%2') and (contains(@title,'New value of changed field') or contains(@title,'Name of changed field'))]"
+			},
+			"lblChangeHistoryReason": {
+				"locator": "xpath",
+				"value": "//span[contains(text(),'%1')]/parent::div/parent::div/following-sibling::div//bdi[text()='%2']"
+			},
+			"btnLoadMore": {
+				"locator": "id",
+				"value": "nextPage-BDI-content"
+			},
+			"lblNewJobTitle": {
+				"locator": "xpath",
+				"value": "//span[text()='Job Information']/parent::div/parent::span/parent::div/parent::div/table/tbody/tr/td/span[text()='Job Title']/parent::td/parent::tr/td/span/span[text()='%1 ']"
+			},
+			"lblNewFirstName": {
+				"locator": "xpath",
+				"value": "//span[text()='Personal Information']/parent::div/parent::span/parent::div/parent::div/table/tbody/tr/td/span[text()='First Name']/parent::td/following-sibling::td/span/span[contains(@title,'New value of changed field')]"
+			},
+			"lblNewLastName": {
+				"locator": "xpath",
+				"value": "//span[text()='Personal Information']/parent::div/parent::span/parent::div/parent::div/table/tbody/tr/td/span[text()='Last Name']/parent::td/following-sibling::td/span/span[contains(@title,'New value of changed field')]"
+			},
+			"lblNewAddressLine1": {
+				"locator": "xpath",
+				"value": "//span[text()='Home']/parent::div/parent::span/parent::div/parent::div/table/tbody/tr/td/span[text()='Address Line 1']/parent::td/following-sibling::td/span/span[contains(@title,'New value of changed field')]"
+			},
+			"lblNewAddressLineB": {
+				"locator": "xpath",
+				"value": "//*[@id='__label75-updatedValue']"
+			},
+			"lblNewNumberAccountExpected": {
+				"locator": "xpath",
+				"value": "//span[text()='Payment Information Changes']/parent::div/parent::div/parent::div/parent::div/parent::header/parent::div/descendant::section/descendant::div[9]/descendant::div/descendant::div[4]/descendant::table/descendant::tbody/descendant::tr[10]/descendant::td[2]/descendant::span[contains(text(),'%2)]"
+			},
+			"lblEffectiveAsOf": {
+				"locator": "xpath",
+				"value": "//span[contains(text(),'Effective as of: '+'%1')]"
+			},
+			"lblEventReason": {
+				"locator": "xpath",
+				"value": "//td[@data-help-id='Event Reason']/following-sibling::td//span"
+			},
+			"lblEvent": {
+				"locator": "xpath",
+				"value": "//span[text()='Event']/parent::td/following-sibling::td/span/span[1]"
+			},
+			"lblEventReasonFinal": {
+				"locator": "xpath",
+				"value": "//*[@id='__label68']"
+			},
+			"spanPayComponentCompensation": {
+				"locator": "xpath",
+				"value": "//div[@id='historyItems']//header[text()='Compensation']/parent::div/descendant::table/descendant::tbody//tr[last()-%1]/descendant::td[position()=2]//span"
+			},
+			"spanAmountCompensation": {
+				"locator": "xpath",
+				"value": "//div[@id='historyItems']//header[text()='Compensation']/parent::div/descendant::table/descendant::tbody//tr[last()-%1]/descendant::td[position()=3]//span"
+			},
+			"spanPayComponentRecurring": {
+				"locator": "xpath",
+				"value": "//div[@id='historyItems']//header[text()='Recurring Payments and Deductions']/parent::div/descendant::table/descendant::tbody//tr[last()-%1]/descendant::td[position()=2]//span"
+			},
+			"spanAmountRecurring": {
+				"locator": "xpath",
+				"value": "//div[@id='historyItems']//header[text()='Recurring Payments and Deductions']/parent::div/descendant::table/descendant::tbody//tr[last()-%1]/descendant::td[position()=3]//span"
+			},
+			"spanGlobalAssignment": {
+				"locator": "xpath",
+				"value": "//span[text()='%1']/parent::div/parent::div/following-sibling::div//bdi[contains(text(), '%2')]"
+			}
+		},
+		"PersonalInformationPage": {
+			"tabPersonalInformation": {
+				"locator": "id",
+				"value": "__dialog2-header-BarPH"
+			},
+			"txtFirstName": {
+				"locator": "xpath",
+				"value": "//bdi[text()='First Name']/parent::span/parent::span/parent::div/parent::div/parent::div/descendant::input"
+			},
+			"txtLastName": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Last Name']/parent::span/parent::span/parent::div/parent::div//input"
+			},
+			"btnShowMoreFields": {
+				"locator": "xpath",
+				"value": "//*[@id='detailsBtn_0-content']"
+			},
+			"btnSave": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Save']"
+			},
+			"txtEnterYourCommentHere": {
+				"locator": "xpath",
+				"value": "//textarea[@placeholder='Enter your comment here']"
+			},
+			"btnConfirm": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Confirm']"
+			},
+			"txtDate": {
+				"locator": "xpath",
+				"value": "//bdi[text()='When would you like your changes to take effect?']/parent::span/parent::label/parent::div/parent::div/parent::div//input"
+				}
+		},
+		"AddressesPage": {
+			"tabAddresses": {
+				"locator": "xpath",
+				"value": "//span[text()='Addresses' and contains(@id,'dialog')]"
+			},
+			"txtAddressLine1": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Address Line 1']/parent::span/parent::span/parent::div/parent::div/div/div/div/input"
+			},
+			"txtDate": {
+				"locator": "xpath",
+				"value": "//bdi[text()='When would you like your changes to take effect?']/parent::span/parent::label/parent::div/parent::div/parent::div/descendant::input"
+			},
+			"btnSave": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Save']"
+			},
+			"txtEnterYourCommentHere": {
+				"locator": "xpath",
+				"value": "//textarea[@placeholder='Enter your comment here']"
+			}
+		},
+		"ContactInformationPage": {
+			"tabContactInformation": {
+				"locator": "xpath",
+				"value": "//span[text()='Contact Information' and contains(@id,'dialog')]"
+			},
+			"txtPrimaryEmail": {
+				"locator": "xpath",
+				"value": "//input[@value='Yes']/ancestor::div/descendant::span[text()='Email Information']/ancestor::div/descendant::tbody/tr[1]/td[3]/div/div/div/div/div/input[contains(@value,'@')]"
+			},
+			"btnSave": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Save']"
+			},
+			"txtPrimaryPhoneNumber": {
+				"locator": "xpath",
+				"value": "//input[@value='Yes']/ancestor::div/descendant::span[text()='Phone Information']/ancestor::div/descendant::tbody/descendant::div[@data-help-id='phoneInfo-phone-number']/descendant::input"
+			}
+		},
+		"PrimaryEmergencyContactPage": {
+			"tabEmergencyContact": {
+				"locator": "xpath",
+				"value": "//span[text()='Primary Emergency Contact' and contains(@id,'dialog')]"
+			},
+			"txtName": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Name']/ancestor::div/div/div/div/div/input"
+			},
+			"btnSave": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Save']"
+			}
+		},
+		"PaymentInformationPage": {
+			"tabPaymentInformation": {
+				"locator": "xpath",
+				"value": "//span[text()='Payment Information' and contains(@id,'dialog')]"
+			},
+			"txtAccountNumber": {
+				"locator": "xpath",
+				"value": "//span[@title='Account Number']/parent::div/parent::div//input"
+			},
+			"btnSave": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Save']"
+			}
+		},
+		"EditHistoryPage": {
+			"txtEvent": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Event']/parent::span/parent::span/parent::div/parent::div/descendant::input"
+			},
+			"selectEvent": {
+				"locator": "xpath",
+				"value": "//li[@title='%1']"
+			},
+			"txtEventReason": {
+				"locator": "xpath",
+				"value": "//bdi[contains(text(), 'Event Rea')]/parent::span/parent::span/parent::div/parent::div//input"
+			},
+			"btnSave": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Save']"
+			},
+			"comboEvent": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Event']/parent::span/parent::div/following-sibling::div/div/div/div"
+			},
+			"comboEventReason": {
+				"locator": "xpath",
+				"value": "//bdi[contains(text(), 'Event ')]/parent::span/parent::div/parent::div/descendant::div[2]/descendant::div[2]/descendant::span"
+			}
+		},
+		"RehireInactiveEmployeePage": {
+			"searchByInput": {
+				"locator": "xpath",
+				"value": "//span[contains(text(), 'Search by')]/parent::div/descendant::input"
+			},
+			"buttonGo": {
+				"locator": "xpath",
+				"value": "//span[contains(text(), 'Search by')]/parent::div/descendant::button[text()='Go']"
+			},
+			"firstNameInGrid": {
+				"locator": "xpath",
+				"value": "//*[@id='label_1007_']/span"
+			},
+			"buttonRehireEmployee": {
+				"locator": "xpath",
+				"value": "//*[@id='1011__link']"
+			},
+			"buttonRehireWithNewEmployment": {
+				"locator": "xpath",
+				"value": "//a[text()='Rehire with new employment']"
+			}
+		},
+		"RehireFormPage": {
+			"txtFirstDateWorked": {
+				"locator": "xpath",
+				"value": "//bdi[text()='First Date Worked']/parent::span/parent::div/parent::div/descendant::input"
+			},
+			"hireDateInput": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Hire Date']/parent::span/parent::span/parent::div/parent::div/descendant::input"
+			},
+			"companyInput": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Company']/parent::span/parent::div/parent::div/descendant::input"
+			},
+			"companyItem": {
+				"locator": "xpath",
+				"value": "//*[@id='__box0-inner']"
+			},
+			"EventReasonInput": {
+				"locator": "xpath",
+				"value": "//bdi[contains(text(),'Event Rea')]/parent::span/parent::span/parent::div/parent::div//input"
+			},
+			"EventReasonItem": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Event Reason']/parent::span/parent::div/parent::div/descendant::input"
+			},
+			"countryRegion": {
+				"locator": "xpath",
+				"value": "//*[@id='__box13-inner']"
+			},
+			"countryOfBirthInput": {
+				"locator": "xpath",
+				"value": "//*[@id='__box4-inner']"
+			},
+			"buttonAddCountry": {
+				"locator": "xpath",
+				"value": "//*[@id='__button21-BDI-content']"
+			},
+			"countryInput": {
+				"locator": "xpath",
+				"value": "//span[text()='National ID Information']/parent::div/parent::div/parent::div/parent::div/descendant::input"
+			},
+			"countryItem": {
+				"locator": "xpath",
+				"value": "//*[@id='__box5-inner']"
+			},
+			"nationalIdCardTypeArrow": {
+				"locator": "xpath",
+				"value": "//span[text()='National ID Information']/parent::div/parent::div/parent::div/parent::div/descendant::input[2]"
+			},
+			"socialSecurityItem": {
+				"locator": "xpath",
+				"value": "//*[@id='__box6-inner']"
+			},
+			"nationalIdInput": {
+				"locator": "xpath",
+				"value": "//span[text()='National ID Information']/parent::div/parent::div/parent::div/parent::div/descendant::input[3]"
+			},
+			"isPrimaryInput": {
+				"locator": "xpath",
+				"value": "//span[text()='National ID Information']/parent::div/parent::div/parent::div/parent::div/descendant::input[4]"
+			},
+			"IsPrimaryItem": {
+				"locator": "xpath",
+				"value": "//*[@id='__box7-inner']"
+			},
+			"buttonContinueFirst": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Continue'][1]"
+			},
+			"countryCodeInput": {
+				"locator": "xpath",
+				"value": "//span[text()='Phone Information']/parent::div/parent::div/parent::div/parent::div/descendant::input[2]"
+			},
+			"areaCodeInput": {
+				"locator": "xpath",
+				"value": "//span[text()='Phone Information']/parent::div/parent::div/parent::div/parent::div/descendant::input[3]"
+			},
+			"phoneInput": {
+				"locator": "xpath",
+				"value": "//span[text()='Phone Information']/parent::div/parent::div/parent::div/parent::div/descendant::input[4]"
+			},
+			"buttonContinueSecond": {
+				"locator": "xpath",
+				"value": "(//bdi[text()='Continue'])[2]"
+			},
+			"txtAddressType": {
+				"locator": "xpath",
+				"value": "//*[@id='__box18-inner']"
+			},
+			"positionInput": {
+				"locator": "xpath",
+				"value": "//bdi[contains(text(),'Posi')]/parent::span/parent::span/parent::div/parent::div/descendant::div[5]//input"
+			},
+			"employeeClassInput": {
+				"locator": "xpath",
+				"value": "//*[@id='__box37-inner']"
+			},
+			"payScaleTypeInput": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Pay Scale Type']/parent::span/parent::div/parent::div/descendant::input"
+			},
+			"payScaleAreaInput": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Pay Scale Area']/parent::span/parent::div/parent::div/descendant::input"
+			},
+			"buttonContinueThird": {
+				"locator": "xpath",
+				"value": "(//bdi[text()='Continue'])[3]"
+			},
+			"payGroupInput": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Pay Group']/parent::span//parent::span/parent::div/parent::div/descendant::input"
+			},
+			"buttonAddCompensation": {
+				"locator": "xpath",
+				"value": "//span[text()='Compensation']/parent::div/parent::div/parent::div/parent::div/descendant::bdi[text()='Add']"
+			},
+			"compensationPayComponentInput": {
+				"locator": "xpath",
+				"value": "//span[text()='Compensation']/parent::div/parent::div/parent::div/parent::div/descendant::input"
+			},
+			"compensationAmount": {
+				"locator": "xpath",
+				"value": "//span[text()='Compensation']/parent::div/parent::div/parent::div/parent::div/descendant::input[2]"
+			},
+			"compensationCurrency": {
+				"locator": "xpath",
+				"value": "//span[text()='Compensation']/parent::div/parent::div/parent::div/parent::div/descendant::input[3]"
+			},
+			"compensationFrequency": {
+				"locator": "xpath",
+				"value": "//span[text()='Compensation']/parent::div/parent::div/parent::div/parent::div/descendant::input[4]"
+			},
+			"isFulltimeEmployee": {
+				"locator": "xpath",
+				"value": "//span[text()='Job Information']/parent::div/parent::div/parent::div/parent::div/descendant::input[9]"
+			},
+			"firstDateWorked": {
+				"locator": "xpath",
+				"value": "//span[text()='Employment Details']/parent::div/parent::div/parent::div/parent::div/descendant::input[5]"
+			},
+			"buttonAddRecurringPayments": {
+				"locator": "xpath",
+				"value": "//span[text()='Recurring Payments and Deductions']/parent::div/parent::div/parent::div/parent::div/descendant::bdi[text()='Add']"
+			},
+			"buttonAddOneTimePayment": {
+				"locator": "xpath",
+				"value": "//span[text()='One-Time Payments']/parent::div/parent::div/parent::div/parent::div/descendant::bdi[text()='Add']"
+			},
+			"buttonContinueForth": {
+				"locator": "xpath",
+				"value": "(//bdi[text()='Continue'])[4]"
+			},
+			"buttonProceed": {
+				"locator": "xpath",
+				"value": "//span[text()='Warning']/parent::h2/parent::div/parent::div/parent::div/parent::header/parent::div/descendant::bdi[text()='Proceed']"
+			},
+			"buttonCorrect": {
+				"locator": "xpath",
+				"value": "//span[text()='Warning']/parent::h2/parent::div/parent::div/parent::div/parent::header/parent::div/descendant::bdi[text()='Correct']"
+			},
+			"txtBusinessUnit": {
+				"locator": "xpath",
+				"value": "//*[@id='__box27-inner']"
+			},
+			"txtlocation": {
+				"locator": "xpath",
+				"value": "//*[@id='__box30-inner']"
+			},
+			"txtJobClassification": {
+				"locator": "xpath",
+				"value": "//*[@id='__box33-inner']"
+			},
+			"txtJobTitle": {
+				"locator": "xpath",
+				"value": "//*[@id='__input22-inner']"
+			},
+			"txtTimezone": {
+				"locator": "xpath",
+				"value": "//*[@id='__box31-inner']"
+			},
+			"viewProfileButton": {
+				"locator": "xpath",
+				"value": "//span[text()='Next Steps']/parent::div/parent::div/parent::div/descendant::a"
+			}
+		},
+		"WorkflowDetailsPage": {
+			"viewWorkflowParticipants": {
+				"locator": "xpath",
+				"value": "//span[text()='Post comments or Withdraw request.']/parent::span/parent::div/parent::div/parent::div/descendant::a[2]"
+			},
+			"approverOne": {
+				"locator": "xpath",
+				"value": "//div[text()='Approvers']/parent::div/descendant::div[2]/descendant::div[2]/descendant::div/descendant::div[2]/descendant::span"
+			},
+			"approverTwo": {
+				"locator": "xpath",
+				"value": "//div[text()='Approvers']/parent::div/descendant::div[contains(@class, 'approverStepRow')][2]/descendant::div[2]/descendant::div/descendant::div[2]/descendant::span"
+			},
+			"buttonClose": {
+				"locator": "xpath",
+				"value": "//div[text()='Approvers']/parent::div/parent::div/parent::div/parent::div/descendant::button[text()='Close']"
+			}
+		},
+		"EmployeeProfilePage": {
+			"optChangeJobAndCompensationInfo": {
+				"locator": "xpath",
+				"value": "//div[text()='Change Job and Compensation Info']"
+			},
+			"userPhotoName": {
+				"locator": "xpath",
+				"value": "//div[@class='surjUserPhotoName']"
+			},
+			"menuLogout": {
+				"locator": "xpath",
+				"value": "//a[text()='Log out']"
+			},
+			"optTermination": {
+				"locator": "xpath",
+				"value": "//div[contains(@style, 'visibility: visible')]//div[text()='Termination']"
+			},
+			"optAddGlobalAssignment": {
+				"locator": "xpath",
+				"value": "//div[text()='Add: Global Assignment Details']"
+			},
+			"btnHistoryPositionInformation": {
+				"locator": "xpath",
+				"value": "//span[text()='Position Information']/parent::div/button[2]"
+			},
+			"btnHistoryCompensationInformation": {
+				"locator": "xpath",
+				"value": "//span[text()='Compensation Information']/parent::div/button[2]"
+			},
+			"lblOrganizationalInformation": {
+				"locator": "xpath",
+				"value": "//div[text()='Organizational Information']"
+			},
+			"lblBiographicalInformation": {
+				"locator": "xpath",
+				"value": "//div[text()='Biographical Information']"
+			},
+			"lblPersonalInformation": {
+				"locator": "xpath",
+				"value": "//div[text()='Personal Information']"
+			},
+			"btnEditPersonalInformation": {
+				"locator": "xpath",
+				"value": "//span[text()='Personal Information']/parent::div/button"
+			},
+			"btnEditNationalId": {
+				"locator": "xpath",
+				"value": "//span[text()='National ID Information']/parent::div/button"
+			},
+			"btnEditWorkPermitInfo": {
+				"locator": "xpath",
+				"value": "//span[text()='Work Permit Info']/parent::div/button"
+			},
+			"btnEditEmergencyContact": {
+				"locator": "xpath",
+				"value": "//span[text()='Emergency Contact']/parent::div/button"
+			},
+			"btnHistoryPersonalInformation": {
+				"locator": "xpath",
+				"value": "//span[text()='Personal Information']/parent::div/button[@title='Personal Information History']"
+			},
+			"btnEditDependents": {
+				"locator": "xpath",
+				"value": "//span[text()='Dependents']/parent::div/button"
+			},
+			"btnEditPositionInformation": {
+				"locator": "xpath",
+				"value": "//span[text()='Position Information']/parent::div/button"
+			},
+			"btnEditEmploymentInfoAtHire": {
+				"locator": "xpath",
+				"value": "//span[text()='Employment Info']/parent::div/button"
+			},
+			"btnEditJobInfo": {
+				"locator": "xpath",
+				"value": "//span[text()='Job Information']/parent::div/button"
+			},
+			"btnEditJobRelantionship": {
+				"locator": "xpath",
+				"value": "//span[text()='Job Relationships']/parent::div/button"
+			},
+			"btnHistoryJobRelantionship": {
+				"locator": "xpath",
+				"value": "//span[text()='Job Relationships']/parent::div/button[@title='Job Relationships History']"
+			},
+			"btnHistoryJobInfo": {
+				"locator": "xpath",
+				"value": "//span[text()='Job Information']/parent::div/button[@title='Job Information History']"
+			},
+			"btnHistoryEmploymentInfoAtHire": {
+				"locator": "xpath",
+				"value": "//span[text()='Employment Info']/parent::div/button[@title='Employment Info History']"
+			},
+			"btnHistoryDependents": {
+				"locator": "xpath",
+				"value": "//span[text()='Dependents']/parent::div/button[@title='Dependents History']"
+			},
+			"btnHistoryNationalID": {
+				"locator": "xpath",
+				"value": "//span[text()='National ID Information']/parent::div/button[@title='National ID Information History']"
+			},
+			"btnHistoryWorkPermitInfo": {
+				"locator": "xpath",
+				"value": "//span[text()='Work Permit Info']/parent::div/button[@title='Work Permit Info History']"
+			},
+			"btnHistoryiographicalInformation": {
+				"locator": "xpath",
+				"value": "//span[text()='Biographical Information']/parent::div/button[@title='Biographical Information History']"
+			},
+			"btnHistoryEmergencyContact": {
+				"locator": "xpath",
+				"value": "//span[text()='Emergency Contact']/parent::div/button[@title='Emergency Contact History']"
+			},
+			"lblAddresses": {
+				"locator": "xpath",
+				"value": "//*[@id='__buttons14_title']"
+			},
+			"lblAddresses2": {
+				"locator": "xpath",
+				"value": "//*[@id='__buttons8_title']"
+			},
+			"btnMe": {
+				"locator": "xpath",
+				"value": "//*[@id='__button45-inner']"
+			},
+			"btnSupervisor": {
+				"locator": "xpath",
+				"value": "//span[text()='Job Information']/parent::div/parent::span/parent::div/parent::div/parent::div/descendant::bdi[text()='Supervisor']/parent::span/parent::div/parent::div/descendant::a"
+			},
+			"btnEditAddresses": {
+				"locator": "xpath",
+				"value": "//span[text()='Addresses']/parent::div/button"
+			},
+			"btnEditCompensationInformation": {
+				"locator": "xpath",
+				"value": "//span[text()='Compensation Information']/parent::div/button"
+			},
+			"btnEditGlobalAssignmentInfo": {
+				"locator": "xpath",
+				"value": "//span[text()='Global Assignment Info']/parent::div/button"
+			},
+			"btnEditContingentWorker": {
+				"locator": "xpath",
+				"value": "//span[text()='Contingent Worker']/parent::div/button"
+			},
+			"btnEditEmailInfo": {
+				"locator": "xpath",
+				"value": "//span[text()='Email Info']/parent::div/button"
+			},
+			"btnEditPhoneInfo": {
+				"locator": "xpath",
+				"value": "//span[text()='Phone Info']/parent::div/button"
+			},
+			"btnEditPayComponent": {
+				"locator": "xpath",
+				"value": "//span[text()='Pay Component']/parent::div/button"
+			},
+			"btnHistoryPayComponent": {
+				"locator": "xpath",
+				"value": "//span[text()='Pay Component']/parent::div/button[2]"
+			},
+			"btnHistoryPhoneInfo": {
+				"locator": "xpath",
+				"value": "//span[text()='Phone Info']/parent::div/button[2]"
+			},
+			"btnHistoryEmailInfo": {
+				"locator": "xpath",
+				"value": "//span[text()='Email Info']/parent::div/button[2]"
+			},
+			"btnHistoryContingentWorker": {
+				"locator": "xpath",
+				"value": "//span[text()='Contingent Worker']/parent::div/button[2]"
+			},
+			"btnHistoryGlobalAssignmentInfo": {
+				"locator": "xpath",
+				"value": "//span[text()='Global Assignment Info']/parent::div/button[2]"
+			},
+			"btnHistoryAddresses": {
+				"locator": "xpath",
+				"value": "//span[text()='Addresses']/parent::div/button[2]"
+			},
+			"btnEditContactInformation": {
+				"locator": "xpath",
+				"value": "//span[text()='Contact Information']/parent::div/button"
+			},
+			"btnEditPaymentInformation": {
+				"locator": "xpath",
+				"value": "//span[text()='Payment Information']/parent::div/button"
+			},
+			"btnHistoryPaymentInformation": {
+				"locator": "xpath",
+				"value": "//span[text()='Payment Information']/parent::div/button[2]"
+			},
+			"lblContactInformation": {
+				"locator": "xpath",
+				"value": "//div[text()='Contact Information']"
+			},
+			"lblPrimaryEmail": {
+				"locator": "xpath",
+				"value": "//span[text()='Contact Information']/ancestor::div/descendant::tbody/tr/td/div/span/a[contains(@href, '@')]"
+			},
+			"lblPrimaryPhoneNumber": {
+				"locator": "xpath",
+				"value": "//span[text()='Contact Information']/ancestor::div/descendant::tbody/tr/td/div/span/a[contains(@href,'tel')]"
+			},
+			"btnEditContactEmergency": {
+				"locator": "xpath",
+				"value": "//span[text()='Primary Emergency Contact']/parent::div/button"
+			},
+			"btnEditBiographicalInformation": {
+				"locator": "xpath",
+				"value": "//span[text()='Biographical Information']/parent::div/button"
+			},
+			"lblContactEmergency": {
+				"locator": "xpath",
+				"value": "//div[text()='Primary Emergency Contact']"
+			},
+			"lblContactEmergencyName": {
+				"locator": "xpath",
+				"value": "//span[text()='Primary Emergency Contact']/ancestor::div/descendant::span[text()='Name']/parent::td/following-sibling::td/div/span[1]"
+			},
+			"lblPaymentInformation": {
+				"locator": "xpath",
+				"value": "//div[text()='Payment Information']"
+			},
+			"lblPositionInformationChangePendingApproval": {
+				"locator": "xpath",
+				"value": "//span[text()='Position Information']/ancestor::div/descendant::a[contains(text(),'pending approval')]"
+			},
+			"lblPersonalInformationChangePendingApproval": {
+				"locator": "xpath",
+				"value": "//span[text()='Personal Information']/ancestor::div/descendant::a[contains(text(),'pending approval')]"
+			},
+			"lblAddressesChangePendingApproval": {
+				"locator": "xpath",
+				"value": "//span[text()='Addresses']/ancestor::div/descendant::a[contains(text(),'pending approval')]"
+			},
+			"lblJobRelationship": {
+				"locator": "xpath",
+				"value": "//div[text()='Job Relationships']"
+			},
+			"listJobRelationshipsApprovers": {
+				"locator": "xpath",
+				"value": "//span[text()='Job Relationships']/parent::div/parent::span/parent::div/parent::div/parent::div/div/div/table/tbody/tr/td/table/tbody/tr/td"
+			},
+			"btnActions": {
+				"locator": "xpath",
+				"value": "//*[@id='__button4-BDI-content']/parent::span/parent::span/parent::button"
+			},
+			"employmentLabel": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Employment']"
+			},
+			"compensationLabel": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Compensation']"
+			},
+			"jobInformationButtonHistory": {
+				"locator": "xpath",
+				"value": "//span[text()='Job Information']/parent::div/parent::span/parent::div/descendant::button[2]"
+			},
+			"eventReason": {
+				"locator": "xpath",
+				"value": "//span[text()='Event']/parent::div/parent::span/parent::div/parent::div/descendant::tr[4]/descendant::td[2]/descendant::span"
+			},
+			"eventReasonFinal": {
+				"locator": "xpath",
+				"value": "/html/body/div[3]/div[2]/section/div/div/div/div[2]/div/section/div/div[4]/div/div[2]/div/table/tbody/tr[4]/td[2]"
+				},
+			"lblContactInfo": {
+				"locator": "xpath",
+				"value": "//*[@id='__section0-__section1-__xmlview0--objectPage-0-3-headerTitle']"
+			},
+			"closeHistoryOld": {
+				"locator": "xpath",
+				"value": "//span[text()='Job Information Changes']/parent::div/parent::div/parent::div/parent::div/descendant::button"
+			},
+			"closeHistory": {
+				"locator": "xpath",
+				"value": "//span[text()='Change History']/ancestor::div[@id='splitContainer']/descendant::header/descendant::button"
+			},
+			"btnCancel": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Cancel']/ancestor::button"
+			},
+			"terminationButton": {
+				"locator": "xpath",
+				"value": "//div[text()='Termination']"
+			},
+			"rbHomeAssignment": {
+				"locator": "xpath",
+				"value": "//span[contains(text(), 'Global Assignment')]/parent::div/parent::div//input/parent::div/parent::div"
+			}
+		},
+		"TerminationPage": {
+			"arrowTerminationReason": {
+				"locator": "xpath",
+				"value": "//span[@title='Termination Reason']/parent::div/following-sibling::div/div/div/div/span"
+			},
+			"listTermination": {
+				"locator": "xpath",
+				"value": "//div[contains(@id, 'popup-list-before')]/following-sibling::ul[@role='listbox']"
+			},
+			"terminationDate": {
+				"locator": "xpath",
+				"value": "//span[contains(text(), 'Termination')]/parent::div/parent::div/parent::div/descendant::input[1]"
+			},
+			"terminationReason": {
+				"locator": "xpath",
+				"value": "//span[@title='Termination Reason']/parent::div/parent::div/descendant::input"
+			},
+			"okayToRehire": {
+				"locator": "xpath",
+				"value": "//bdi[text()='OK to Rehire']/parent::span/parent::span/parent::div//parent::div//input"
+			},
+			"terminationButtonSave": {
+				"locator": "xpath",
+				"value": "//bdi[contains(text(), 'Save')]"
+			},
+			"terminationComment": {
+				"locator": "xpath",
+				"value": "//textarea"
+			},
+			"terminationConfirm": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Confirm']"
+			},
+			"terminationLink": {
+				"locator": "xpath",
+				"value": "//span[text()='Job Information']/parent::div/parent::span/parent::div/parent::div/parent::div/descendant::a[contains(text(), 'Termination')]"
+			}
+		},
+		"ProxyPage": {
+			"userProxy": {
+				"locator": "xpath",
+				"value": "//span[text()='Select Target User']/parent::h2/parent::div/parent::div/parent::div/parent::header/parent::div/descendant::input"
+			},
+			"buttonOk": {
+				"locator": "xpath",
+				"value": "//bdi[text()='OK']"
+			},
+			"approveRequests": {
+				"locator": "xpath",
+				"value": "//div[contains(text(), 'Request')]"
+			},
+			"buttonApprove": {
+				"locator": "xpath",
+				"value": "//table/descendant::bdi[text()='Approve']"
+			},
+			"buttonClose": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Close']"
+			}
+		},
+		"PleaseConfirmYourRequestPage": {
+			"approvers": {
+				"locator": "xpath",
+				"value": "//span[text()='Approvers']/parent::div/parent::div/descendant::span/bdi"
+			},
+			"btnShowWorkflowParticipants": {
+				"locator": "xpath",
+				"value": "//a[text()='Show workflow participants']"
+			},
+			"txtEnterYourCommentHere": {
+				"locator": "xpath",
+				"value": "//textarea[@placeholder='Enter your comment here']"
+			},
+			"btnConfirm": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Confirm']"
+			},
+			"btnApprove": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Approve']"
+			},
+			"btnOk": {
+				"locator": "xpath",
+				"value": "//bdi[text()='OK']"
+			}
+		},
+		"TimeOffPage": {
+			"btnFirstYear": {
+				"locator": "xpath",
+				"value": "//*[@id='idEssContainer---main--calendar--Head-B2']"
+			},
+			"txtDateStart": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Start Date']/parent::span/parent::span/parent::div/parent::div//input"
+			},
+			"txtDateFinish": {
+				"locator": "xpath",
+				"value": "//bdi[text()='End Date']/parent::span/parent::span/parent::div/parent::div//input"
+			},
+			"selectYear": {
+				"locator": "xpath",
+				"value": "//div[text()='%1']"
+			},
+			"btnSecondYear": {
+				"locator": "xpath",
+				"value": "//*[@id='idEssContainer---main--calendar--Head-B4']"
+			},
+			"selectSecondYear": {
+				"locator": "xpath",
+				"value": "//div[text()='%1']"
+			},
+			"btnFirstMonth": {
+				"locator": "xpath",
+				"value": "//*[@id='idEssContainer---main--calendar--Head-B1']"
+			},
+			"btnSecondMonth": {
+				"locator": "xpath",
+				"value": "//*[@id='idEssContainer---main--calendar--Head-B3']"
+			},
+			"selectMonth": {
+				"locator": "xpath",
+				"value": "//div[text()='%1']"
+			},
+			"selectSecondMonth": {
+				"locator": "xpath",
+				"value": "//div[text()='%1']"
+			},
+			"btnDay": {
+				"locator": "xpath",
+				"value": "//button[text()='%1']/parent::div/following-sibling::div/div/div/div[contains(@aria-label,'%2') and not(contains(@aria-disabled, 'true'))]/span[text()='%3']"
+			},
+			"btnNewAbsence": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Create Absence']"
+			},
+			"btnSubmit": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Submit']"
+			},
+			"comboTimeType": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Time Type']/ancestor::div/div/div/div/div/input"
+			},
+			"validateTimeOff": {
+				"locator": "xpath",
+				"value": "//div[contains(text(),'%1')]/parent::div/following-sibling::div/div[contains(text(),'%2') and following-sibling::div[contains(text(),'Approved')]]"
+			}
+		},
+		"PendingRequestsPage": {
+			"txtFisrtMyRequestsWaitingForApproval": {
+				"locator": "xpath",
+				"value": "//span[text()='My Requests Waiting for Approval']/parent::div/following-sibling::div/div/div/div/div"
+			},
+			"linkFisrtMyRequestsWaitingForApproval": {
+				"locator": "xpath",
+				"value": "//span[text()='My Requests Waiting for Approval']/parent::div/following-sibling::div/descendant::a"
+			}
+		},
+		"HireFormPage": {
+			"txtHireDate": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Hire Date']/parent::span/parent::span/parent::div/parent::div//input"
+			},
+			"txtCompany": {
+				"locator": "xpath",
+				"value": "//span[@title='Company']/parent::div/parent::div/parent::div//input"
+			},
+			"txtEventReason": {
+				"locator": "xpath",
+				"value": "//span[@title='Event Reason']/parent::div/parent::div/parent::div//input"
+			},
+			"txtFirstName": {
+				"locator": "xpath",
+				"value": "//bdi[text()='First Name']/parent::span/parent::span/parent::div/parent::div/descendant::input"
+			},
+			"txtLastName": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Last Name']/parent::span/parent::span/parent::div/parent::div/descendant::input"
+			},
+			"txtDateOfBirth": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Date Of Birth']/parent::span/parent::span/parent::div/parent::div/descendant::input"
+			},
+			"txtCountryOfBirth": {
+				"locator": "xpath",
+				"value": "//span[@title='Country Of Birth']/parent::div/parent::div/parent::div/descendant::input"
+			},
+			"txtEmpUserName": {
+				"locator": "id",
+				"value": "__input7-inner"
+			},
+			"btnContinueFirst": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Continue']"
+			},
+			"txtPreferredLanguage": {
+				"locator": "xpath",
+				"value": "//span[@title='Preferred Language']/parent::div/parent::div/parent::div/descendant::input"
+			},
+			"txtNacionality": {
+				"locator": "xpath",
+				"value": "//span[@title='Nationality']/parent::div/parent::div/parent::div/descendant::input"
+			},
+			"txtPhone": {
+				"locator": "xpath",
+				"value": "//span[@title='Phone Number']/parent::div/parent::th/parent::tr/parent::thead/parent::table/descendant::tbody/descendant::tr/descendant::td[5]//input"
+			},
+			"btnAddEmail": {
+				"locator": "id",
+				"value": "__button43-BDI-content"
+			},
+			"txtEmailType": {
+				"locator": "xpath",
+				"value": "//*[@id='__box21-inner']"
+			},
+			"txtEmailAddress": {
+				"locator": "xpath",
+				"value": "//*[@id='__input13-inner']"
+			},
+			"txtPhoneType": {
+				"locator": "xpath",
+				"value": "//*[@id='__box23-inner']"
+			},
+			"txtPhoneNumber": {
+				"locator": "xpath",
+				"value": "//*[@id='__input16-inner']"
+			},
+			"txtIsPhonePrimary": {
+				"locator": "xpath",
+				"value": "//*[@id='__box24-inner']"
+			},
+			"txtIsEmmilPrimary": {
+				"locator": "xpath",
+				"value": "//*[@id='__box22-inner']"
+			},
+			"btnAddPhone": {
+				"locator": "id",
+				"value": "__button44-BDI-content"
+			},
+			"btnContinueSecond": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Add Dependents']/parent::span/parent::span/parent::button/parent::div/parent::div/parent::div/parent::div/parent::div/following-sibling::div//bdi"
+			},
+			"txtPosition": {
+				"locator": "xpath",
+				"value": "//span[@title='Position']/parent::div/parent::div/parent::div//input"
+			},
+			"drpPosition": {
+				"locator": "xpath",
+				"value": "//*[@id='__box25-arrow']"
+			},
+			"txtHireDateEmploymentDetails": {
+				"locator": "xpath",
+				"value": "//span[@title='Hire Date']/parent::div/parent::div/descendant::div[contains(@id,'__picker5')]//input"
+			},
+			"txtFirstDateWorked": {
+				"locator": "xpath",
+				"value": "//span[@title='First Date Worked']/parent::div/parent::div//input"
+			},
+			"btnContinueThird": {
+				"locator": "xpath",
+				"value": "//*[@id='__button68-BDI-content']"
+			},
+			"txtPayGroup": {
+				"locator": "xpath",
+				"value": "//span[@title='Pay Group']/parent::div/parent::div/descendant::input"
+
+			},
+			"btnContinueForth": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Add Payment Information']/parent::span/parent::span/parent::button/parent::div/parent::div/parent::div/parent::div/parent::div/following-sibling::div//bdi"
+			},
+			"buttonProceed": {
+				"locator": "xpath",
+				"value": "//span[text()='Warning']/parent::h2/parent::div/parent::div/parent::div/parent::header/parent::div/descendant::bdi[text()='Proceed']"
+			},
+			"buttonCorrect": {
+				"locator": "xpath",
+				"value": "//span[text()='Warning']/parent::h2/parent::div/parent::div/parent::div/parent::header/parent::div/descendant::bdi[text()='Correct']"
+			},
+			"viewProfileButton": {
+				"locator": "xpath",
+				"value": "//span[text()='Next Steps']/parent::div/parent::div/parent::div/descendant::a"
+			},
+			"btnEventReason": {
+				"locator": "xpath",
+				"value": "//bdi[@id='__label2-bdi']/parent::span/parent::div/parent::div//input"
+			}
+		},
+		"OnTimePaymentsPage": {
+			"btnCompensation": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Compensation']/parent::span/parent::span/parent::button"
+			},
+			"btnEdit": {
+				"locator": "xpath",
+				"value": "//span[text()='One-Time Payments']/parent::div//button"
+			},
+			"txtDate": {
+				"locator": "xpath",
+				"value": "//span[text()='One-Time Payments']/parent::div/parent::div/parent::div/parent::div/div/descendant::tr[position()=last()-1]/td[position()=2]/descendant::input"
+			},
+			"txtType": {
+				"locator": "xpath",
+				"value": "//span[text()='One-Time Payments']/parent::div/parent::div/parent::div/parent::div/div/descendant::tr[position()=last()-1]/td[position()=3]/descendant::input"
+			},
+			"txtValue": {
+				"locator": "xpath",
+				"value": "//span[text()='One-Time Payments']/parent::div/parent::div/parent::div/parent::div/div/descendant::tr[position()=last()-1]/td[position()=4]/descendant::input"
+			},
+			"txtCurrencyCode": {
+				"locator": "xpath",
+				"value": "//span[text()='One-Time Payments']/parent::div/parent::div/parent::div/parent::div/div/descendant::tr[position()=last()-1]/td[position()=5]/descendant::input"
+			},
+			"btnAdd": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Add']"
+			},
+			"btnSave": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Save']/parent::span/parent::span/parent::button"
+			},
+			"btnConfirmSave": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Confirm']/parent::span/parent::span/parent::button"
+			},
+			"linkPendingApproval": {
+				"locator": "xpath",
+				"value": "//span[text()='One-Time Payments']/parent::div/parent::span/parent::div/parent::div/parent::div/descendant::a"
+			},
+			"linkPendingApprovalSub": {
+				"locator": "xpath",
+				"value": "//div//a[contains(text(), '%1')]/parent::div/parent::div/parent::div/parent::div/child::div[position()='1']//a"
+			},
+			"linkViewParticipants": {
+				"locator": "xpath",
+				"value": "//div[@id='48_']//a"
+			},
+			"participantGroup": {
+				"locator": "xpath",
+				"value": "//div[text()='Approvers']//parent::div/descendant::div/descendant::div/parent::div/child::div[last()]/descendant::div/child::div[last()]/child::span"
+			},
+			"countryGroup": {
+				"locator": "xpath",
+				"value": "//div[text()='Approvers']//parent::div/descendant::div/descendant::div/parent::div/child::div[last()]/descendant::div/child::div[last()]/child::span//span"
+			},
+			"btnClose": {
+				"locator": "xpath",
+				"value": "//button[text()='Close']"
+			},
+			"inputSearchGorupName": {
+				"locator": "xpath",
+				"value": "//input[@value='Type group name...']"
+			},
+			"linkGroupName": {
+				"locator": "xpath",
+				"value": "//tr//td[position()=1]//a[text()='%1']"
+			},
+			"ApproversName": {
+				"locator": "xpath",
+				"value": "//h3//span[text()='Choose Group Members:']/parent::h3/parent::div/descendant::tbody//tr//td[position()=2]//a"
+			},
+			"linkMembership": {
+				"locator": "xpath",
+				"value": "//big//a"
+			},
+			"firstName": {
+				"locator": "xpath",
+				"value": "//div[text()='Membership']/parent::div/parent::div/parent::div/parent::div/descendant::table//tbody//tr[@class='a']//td[position()='1']//span"
+			},
+			"middleName": {
+				"locator": "xpath",
+				"value": "//div[text()='Membership']/parent::div/parent::div/parent::div/parent::div/descendant::table//tbody//tr[@class='a']//td[position()='2']//span"
+			},
+			"btnCancel": {
+				"locator": "xpath",
+				"value": "//button[text()='Cancel']"
+			},
+			"verifyOnTimePayment": {
+				"locator": "xpath",
+				"value": "//tr//td//span[contains(text(),'%1')]/parent::td/parent::tr//td[position()=2]//span//span[position()=1][text()='%2']/parent::span/parent::td/parent::tr//td[last()]//span[text()='%3']"
+			}
+		},
+		"ManagePositionPage": {
+			"comboCreateNewPos": {
+				"locator": "xpath",
+				"value": "//*[@id='48__write_toggle']"
+			},
+			"txtStartDate": {
+				"locator": "xpath",
+				"value": "//*[@id='80_']"
+			},
+			"jobCodeIput": {
+				"locator": "xpath",
+				"value": "//*[@id='117__write']"
+			},
+			"changeReasonInput": {
+				"locator": "xpath",
+				"value": "//*[@id='155__write']"
+			},
+			"txtFte": {
+				"locator": "xpath",
+				"value": "//*[@id='510__write']"
+			},
+			"companyInput": {
+				"locator": "xpath",
+				"value": "//*[@id='743__write']"
+			},
+			"businessUnitInput": {
+				"locator": "xpath",
+				"value": "//*[@id='785__write']"
+			},
+			"divisionInput": {
+				"locator": "xpath",
+				"value": "//*[@id='827__write']"
+			},
+			"departmentInput": {
+				"locator": "xpath",
+				"value": "//*[@id='869__write']"
+			},
+			"locationInput": {
+				"locator": "xpath",
+				"value": "//*[@id='907__write']"
+			},
+			"costCenterInput": {
+				"locator": "xpath",
+				"value": "//*[@id='929__write']"
+			},
+			"btnSave": {
+				"locator": "xpath",
+				"value": "//*[@id='dlgButton_1039_']"
+			},
+		"AddGlobalAssignment": {
+			"txtEventReason": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Event Reason']/parent::span/parent::span/parent::div/parent::div//input"
+			},
+			"txtAssignmentType": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Assignment Type']/parent::span/parent::span/parent::div/parent::div//input"
+			},
+			"txtStartDate": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Start Date']/parent::span/parent::span/parent::div/parent::div//input"
+			},
+			"txtEndDate": {
+				"locator": "xpath",
+				"value": "//*[@id='__picker1-content']//input"
+			},
+			"txtCompany": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Company']/parent::span/parent::span/parent::div/parent::div//input"
+			},
+			"btnContinue": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Continue']"
+			},
+			"txtPosition": {
+				"locator": "xpath",
+				"value": "//*[@id='__box3-content']//input"
+			},
+			"txtPayGroup": {
+				"locator": "xpath",
+				"value": "//*[@id='__box34-content']//input"
+			},
+			"btnSubmit": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Submit']"
+			}
+		},
+		"ApproveRequestsPage": {
+			"btnClose": {
+				"locator": "xpath",
+				"value": "//bdi[text()='Close']"
+			}
+		}
+	}
+
+	}
+}

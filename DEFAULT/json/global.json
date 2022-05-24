@@ -1,0 +1,8 @@
+{
+	"Global": {
+		"urlSystem": "https://salesdemo.successfactors.eu/login?company=SFPART060364",
+		"urlAddNewEmployee": "https://salesdemo.successfactors.eu/xi/ui/peopleprofile/pages/newhire.xhtml?",
+		"login": "sfadmin",
+		"password": "Welcome@2468"
+	}
+}

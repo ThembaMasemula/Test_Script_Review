@@ -1,0 +1,24 @@
+{
+  "TerminationVoluntary" : {
+    "employee" : "marvin_stigterrs",
+    "hireDate" : "Sep 01, 2020",
+    "eventReason" : "Vol Termination -  Other (TERTVTERM)",
+    "country" : "United States",
+    "socialSecurity" : "563-59-7954",
+    "countryCode" : "1",
+    "areaCode" : "317",
+    "phone" : "555-0174",
+    "position" : "90002007",
+    "payScaleType" : "Assurances",
+    "payScaleArea" : "France",
+    "payGroup" : "USA Bi-weekly",
+    "compensationPayComponent" : "Hourly Rate",
+    "compensationAmount" : "1000",
+    "compensationCurrency" : "USD",
+    "compensationFrequency" : "Bi-Weekly",
+    "terminationDate" : "Sep 12, 2020",
+    "terminationReason" : "Vol Termination -  Other",
+    "terminationReasonFull" : "Vol Termination - Other (TERTVTERM)",
+    "terminationComment" : "comment"
+  }
+}

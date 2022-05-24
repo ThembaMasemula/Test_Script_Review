@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="5" thread-count="1" verbose="0">
+  <test name="DemotionWithPay">
+    <parameter name="rowNum" value="15"/>
+    <parameter name="eventId" value="Grover"/>
+    <classes>
+      <class name="com.ilabquality.tests.DemotionWithPay"/>
+    </classes>
+  </test>
+</suite>

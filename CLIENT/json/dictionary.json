@@ -1,0 +1,382 @@
+{
+    "web":{
+    	"BasePage":{
+            "loading":{
+                "locator":"xpath",
+                "value":"//div[contains(@class, 'sapMBusyDialog')]"
+            }            
+        },
+        "LoginPage":{
+            "txtUsername":{
+                "locator":"name",
+                "value":"username"
+            },
+            "txtPassword":{
+                "locator":"name",
+                "value":"password"
+            },
+            "btnLogin":{
+                "locator":"id",
+                "value":"__button2-BDI-content"
+            }
+        },
+        "AdminCenterPage":{
+            "txtSerachFor":{
+                "locator":"id",
+                "value":"bizXSearchField-I"
+            },
+            "btnHeaderDropdown":{
+                "locator":"id",
+                "value":"customHeaderModulePickerBtn"
+            },
+            "optHeaderDropdown":{
+                "locator":"xpath",
+                "value":"//a[text()='%1']"
+            }
+        },
+        "EmployeeFilePage":{
+            "btnActions":{
+                "locator":"id",
+                "value":"__button4-content"
+            },
+            "optChangeJobAndCompensationInfo":{
+                "locator":"xpath",
+                "value":"//div[text()='Change Job and Compensation Info']"
+            },
+            "btnHistoryPositionInformation":{
+                "locator":"xpath",
+                "value":"//span[text()='Position Information']/parent::div/button[2]"
+            },
+            "lblOrganizationalInformation":{
+                "locator":"xpath",
+                "value":"//div[text()='Organizational Information']"
+            },
+            "btnEditPersonalInformation":{
+                "locator":"xpath",
+                "value":"//span[text()='Personal Information']/parent::div/button"
+            },
+            "btnHistoryPersonalInformation":{
+                "locator":"xpath",
+                "value":"//span[text()='Personal Information']/parent::div/button[@title='Personal Information History']"
+            },
+            "lblAddresses":{
+                "locator":"xpath",
+                "value":"//div[text()='Addresses']"
+            },
+            "btnEditAddresses":{
+                "locator":"xpath",
+                "value":"//span[text()='Addresses']/parent::div/button"
+            },
+            "btnHistoryAddresses":{
+                "locator":"xpath",
+                "value":"//span[text()='Addresses']/parent::div/button[2]"
+            },
+            "btnEditContactInformation":{
+                "locator":"xpath",
+                "value":"//span[text()='Contact Information']/parent::div/button"
+            },
+            "btnEditPaymentInformation":{
+                "locator":"xpath",
+                "value":"//span[text()='Payment Information']/parent::div/button"
+            },
+            "lblContactInformation":{
+                "locator":"xpath",
+                "value":"//div[text()='Contact Information']"
+            },
+            "lblPrimaryEmail":{
+                "locator":"xpath",
+                "value":"//span[text()='Contact Information']/ancestor::div/descendant::tbody/tr/td/div/span/a[contains(@href, '@')]"
+            },            
+            "lblPrimaryPhoneNumber":{
+                "locator":"xpath",
+                "value":"//span[text()='Contact Information']/ancestor::div/descendant::tbody/tr/td/div/span/a[contains(@href,'tel')]"
+            },
+            "btnEditContactEmergency":{
+                "locator":"xpath",
+                "value":"//span[text()='Primary Emergency Contact']/parent::div/button"
+            },
+            "lblContactEmergency":{
+                "locator":"xpath",
+                "value":"//div[text()='Primary Emergency Contact']"
+            },
+            "lblContactEmergencyName":{
+                "locator":"xpath",
+                "value":"//span[text()='Primary Emergency Contact']/ancestor::div/descendant::span[text()='Name']/parent::td/following-sibling::td/div/span[1]"
+            },
+            "lblPaymentInformation":{
+                "locator":"xpath",
+                "value":"//div[text()='Payment Information']"
+            }              
+        },
+        "ChangeJobAndCompensationInfoPage":{
+            "lblChangeJogAndCompensationInfo":{
+                "locator":"xpath",
+                "value":"//span[text()='Change Job and Compensation Info']"
+            },
+            "chkJobInformation":{
+                "locator":"xpath",
+                "value":"//label/bdi[text()='Job Information']"
+            },
+            "drpDwtimeZone":{
+                "locator":"xpath",
+                "value":"//*[@id=__box72-arrow]"
+            },
+            "txtDateWillChangeEffect":{
+                "locator":"id",
+                "value":"__picker2-inner"
+            },
+            "txtJobTitle":{
+                "locator":"xpath",
+                "value":"//section/div[5]/div/div/div/div/div[3]/div/div/div/div/div/input"
+            },
+            "btnSave":{
+                "locator":"xpath",
+                "value":"//bdi[text()='Save']"
+            }
+        },
+        "ChangeHistoryPage":{
+            "btnClose":{
+                "locator":"xpath",
+                "value":"//span[text()='Change History']/ancestor::div/descendant::header/descendant::button"
+            },
+            "lblChangeHistory":{
+                "locator":"xpath",
+                "value":"//span[contains(text(),'%1')]/parent::div/parent::div/following-sibling::div/div/div/span[text()='%2' and contains(@title,'New value of changed field')]"
+            },
+            "btnLoadMore":{
+                "locator":"id",
+                "value":"nextPage-BDI-content"
+            },
+            "lblNewJobTitle":{
+                "locator":"xpath",
+                "value":"//span[text()='Job Information']/parent::div/parent::span/parent::div/parent::div/table/tbody/tr/td/span[text()='Job Title']/parent::td/parent::tr/td/span/span[text()='%1 ']"
+            },
+            "lblNewFirstName":{
+                "locator":"xpath",
+                "value":"//span[text()='Personal Information']/parent::div/parent::span/parent::div/parent::div/table/tbody/tr/td/span[text()='First Name']/parent::td/following-sibling::td/span/span[contains(@title,'New value of changed field')]"
+            },
+            "lblNewLastName":{
+                "locator":"xpath",
+                "value":"//span[text()='Personal Information']/parent::div/parent::span/parent::div/parent::div/table/tbody/tr/td/span[text()='Last Name']/parent::td/following-sibling::td/span/span[contains(@title,'New value of changed field')]"
+            },            
+            "lblNewAddressLine1":{
+                "locator":"xpath",
+                "value":"//span[text()='Home']/parent::div/parent::span/parent::div/parent::div/table/tbody/tr/td/span[text()='Address Line 1']/parent::td/following-sibling::td/span/span[contains(@title,'New value of changed field')]"
+            },            
+            "lblNewNumberAccountExpected":{
+                "locator":"xpath",
+                "value":"//span[text()='Home']/parent::div/parent::span/parent::div/parent::div/table/tbody/tr/td/span[text()='Address Line 1']/parent::td/following-sibling::td/span/span[contains(@title,'New value of changed field')]"
+            },
+            "lblEffectiveAsOf":{
+                "locator":"xpath",
+                "value":"//span[contains(text(),'Effective as of: %1')]"
+            }            
+        },
+        "PersonalInformationPage":{
+            "tabPersonalInformation":{
+                "locator":"id",
+                "value":"__dialog2-header-BarPH"
+            },
+            "txtFirstName":{
+                "locator":"xpath",
+                "value":"//bdi[text()='First Name']/parent::span/parent::div/parent::div/parent::div/descendant::input"
+            },
+            "txtLastName":{
+                "locator":"xpath",
+                "value":"//bdi[text()='Last Name']/parent::span/parent::div/parent::div/parent::div/descendant::input"
+            },
+            "btnShowMoreFields":{
+                "locator":"xpath",
+                "value":"//*[@id='detailsBtn_0-content']"
+            },
+            "btnSave":{
+                "locator":"xpath",
+                "value":"//bdi[text()='Save']"
+            },
+            "txtEnterYourCommentHere":{
+                "locator":"xpath",
+                "value":"//textarea[@placeholder='Enter your comment here']"
+            },
+            "btnConfirm":{
+                "locator":"xpath",
+                "value":"//bdi[text()='Confirm']"
+            },
+            "txtDate":{
+                "locator":"xpath",
+                "value":"//bdi[text()='When would you like your changes to take effect?']/parent::label/parent::div/parent::div/parent::div/descendant::input"
+            }             
+        },
+        "AddressesPage":{
+            "tabAddresses":{
+                "locator":"xpath",
+                "value":"//span[text()='Addresses' and contains(@id,'dialog')]"
+            },
+            "txtAddressLine1":{
+                "locator":"xpath",
+                "value":"//bdi[text()='Address Line 1']/parent::span/parent::div/parent::div/div/div/div/div/input"
+            },
+            "txtDate":{
+                "locator":"xpath",
+                "value":"//bdi[text()='When would you like your changes to take effect?']/parent::label/parent::div/parent::div/parent::div/descendant::input"
+            },
+            "btnSave":{
+                "locator":"xpath",
+                "value":"//bdi[text()='Save']"
+            },
+            "txtEnterYourCommentHere":{
+                "locator":"xpath",
+                "value":"//textarea[@placeholder='Enter your comment here']"
+            },
+            "btnConfirm":{
+                "locator":"xpath",
+                "value":"//bdi[text()='Confirm']"
+            }
+        },
+        "ContactInformationPage":{
+        	"tabContactInformation":{
+                "locator":"xpath",
+                "value":"//span[text()='Contact Information' and contains(@id,'dialog')]"
+            },
+            "txtPrimaryEmail":{
+                "locator":"xpath",
+                "value":"//input[@value='Yes']/ancestor::div/descendant::span[text()='Email Information']/ancestor::div/descendant::tbody/tr[1]/td[3]/div/div/div/div/div/input[contains(@value,'@')]"
+            },
+             "btnSave":{
+                "locator":"xpath",
+                "value":"//bdi[text()='Save']"
+            },
+            "txtPrimaryPhoneNumber":{
+                "locator":"xpath",
+                "value":"//input[@value='Yes']/ancestor::div/descendant::span[text()='Phone Information']/ancestor::div/descendant::tbody/descendant::div[@data-help-id='phoneInfo-phone-number']/descendant::input"
+            }
+        },
+        "PrimaryEmergencyContactPage":{
+        	"tabEmergencyContact":{
+                "locator":"xpath",
+                "value":"//span[text()='Primary Emergency Contact' and contains(@id,'dialog')]"
+            },
+            "txtName":{
+                "locator":"xpath",
+                "value":"//bdi[text()='Name']/ancestor::div/div/div/div/div/input"
+            },
+             "btnSave":{
+                 "locator":"xpath",
+                 "value":"//bdi[text()='Save']"
+             }
+        },
+		"PaymentInformationPage":{
+        	"tabPaymentInformation":{
+                "locator":"xpath",
+                "value":"//span[text()='Payment Information' and contains(@id,'dialog')]"
+            },
+            "txtAccountNumber":{
+                "locator":"xpath",
+                "value":"//bdi[text()='Account Number']/parent::span/parent::div/following-sibling::div/div/div/div/input"
+            },
+             "btnSave":{
+                 "locator":"xpath",
+                 "value":"//bdi[text()='Save']"
+             }
+        },
+        "RehireInactiveEmployeePage":{
+            "firstNameInGrid":{
+                "locator":"xpath",
+                "value":"//*[@id='label_71_']/span"
+            },
+            "buttonRehireWithNewEmployement":{
+                "locator":"xpath",
+                "value":"//*[@id='77__link']"
+            }
+        },
+        "RehireFormPage":{
+            "companyInput":{
+                "locator":"xpath",
+                "value":"//*[@id='__box0-arrow']"
+            },
+            "companyItem":{
+                "locator":"xpath",
+                "value":"//*[@id='__box0-inner']"
+            },
+            "EventReasonInput":{
+                "locator":"xpath",
+                "value":"//*[@id='__box1-arrow']"
+            },
+            "EventReasonItem":{
+                "locator":"xpath",
+                "value":"//*[@id='__box1-inner']"
+            },
+            "countryRegion":{
+                "locator":"xpath",
+                "value":"//*[@id='__box13-inner']"
+            },
+            "countryOfBirthInput":{
+                "locator":"xpath",
+                "value":"//*[@id='__box4-inner']"
+            },
+            "buttonAddCountry":{
+                "locator":"xpath",
+                "value":"//*[@id='__button21-BDI-content']"
+            },
+            "countryInput":{
+                "locator":"xpath",
+                "value":"//*[@id='__box5-inner']"
+            },
+            "countryItem":{
+                "locator":"xpath",
+                "value":"//*[@id='__box5-inner']"
+            },
+            "nationalIdCardTypeArrow":{
+                "locator":"xpath",
+                "value":"//*[@id='__box6-arrow']"
+            },
+            "socialSecurityItem":{
+                "locator":"xpath",
+                "value":"//*[@id='__box6-inner']"
+            },
+            "nationalIdInput":{
+                "locator":"xpath",
+                "value":"//*[@id='__input7-inner']"
+            },
+            "isPrimaryInput":{
+                "locator":"xpath",
+                "value":"//*[@id='__box7-arrow']"
+            },
+            "IsPrimaryItem":{
+                "locator":"xpath",
+                "value":"//*[@id='__box7-inner']"
+            },
+            "buttonContinueFirst":{
+                "locator":"xpath",
+                "value":"//*[@id='__button20-BDI-content']"
+            },
+            "countryCodeInput":{
+                "locator":"xpath",
+                "value":"//*[@id='__input15-inner']"
+            },
+            "areaCodeInput":{
+                "locator":"xpath",
+                "value":"//*[@id='__input16-inner']"
+            },
+            "phoneInput":{
+                "locator":"xpath",
+                "value":"//*[@id='__input17-inner']"
+            },
+            "buttonContinueSecond":{
+                "locator":"xpath",
+                "value":"//*[@id='__button45-BDI-content']"
+            },
+            "positionInput":{
+                "locator":"xpath",
+                "value":"//*[@id='__box29-arrow']"
+            },
+            "txtAddressType":{
+                "locator":"xpath",
+                "value":"//*[@id='__box18-inner']"
+            },            
+            "positionItem":{
+                "locator":"xpath",
+                "value":"//*[@id='__box29-inner']"
+            }
+        }
+    }
+}

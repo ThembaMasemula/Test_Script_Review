@@ -1,0 +1,22 @@
+version: "3"
+services:
+  ilab-jenkins:
+    restart: always
+    container_name: ilab-jenkins
+    hostname: ilab-jenkins
+    image: studira/ilab-jenkins:current
+    volumes:
+      - ./ilab-jenkins:/var/jenkins_home
+      - ./ilab-jenkins:/client/resources
+      - ./ilab-jenkins:/client/results
+    ports:
+      - 8080:8080
+      - 50000:50000
+
+volumes:
+  ilab-jenkins:
+    name: ilab-jenkins
+
+networks:
+  ilab-net:
+    name: ilab-net

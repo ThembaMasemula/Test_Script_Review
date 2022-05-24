@@ -1,0 +1,25 @@
+{
+	"Hire": {
+		"hireDate": "Sep 01, 2020",
+		"company": "10000",
+		"eventReason": "HIRNEW",
+		"Firstname": "tamia",
+		"LastName": "sims",
+		"emailType": "Personal",
+		"emailAddress": "tsims@test.com",
+		"isPrimaryEmail": "Yes",
+		"phoneType": "Cell",
+		"phoneNumber": "4028500",
+		"isPrimaryPhone": "Yes",
+		"dateOfBirth": "Oct 26, 1970",
+		"countryOfBirth": "United States",
+		"preferedLanguage": "English (US)",
+		"nationality": "United States",
+		"phone": "9068081",
+		"position": "3000982",
+		"firstDateWorked": "Sep 03, 2020",
+		"payGroup": "USA Bi-weekly",
+		"eventReasonHistory": "New Hire (HIRNEW)",
+		"username": "tamia_sims"
+	}
+}

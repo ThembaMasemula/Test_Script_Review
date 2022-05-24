@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="5" thread-count="1" verbose="0">
+  <test name="Rehire">
+    <parameter name="rowNum" value="35"/>
+    <parameter name="eventId" value="Grover"/>
+    <classes>
+      <class name="com.ilabquality.tests.Rehire"/>
+    </classes>
+  </test>
+</suite>

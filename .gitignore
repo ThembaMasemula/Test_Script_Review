@@ -1,0 +1,56 @@
+### Text ###
+SUPPORT/HELP.md
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IDE ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Local Files ###
+.iml
+.mvn
+/uploads/
+/target/
+/TEST/report
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Docker Volumes ###
+/ilab-dbase/
+/ilab-server/
+/ilab-activemq/
+/ilab-dashboard/
+
+### Build ###
+/target/classes/
+/target/generated-sources/
+/target/generated-test-sources/
+/target/maven-archiver/
+/target/test-classes/
+/Evidencias/
+/Evidencias*/
+/TEST/reports/
+**/*shaded.jar
+**/*tests.jar
+**/original*

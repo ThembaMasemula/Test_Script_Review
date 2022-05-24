@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="12" thread-count="1" verbose="0">
+  <test name="001 Internet Search">
+    <parameter name="rowNum" value="0"/>
+    <parameter name="eventId" value="None"/>
+    <classes>
+      <class name="com.ilabquality.tests.InternetSearch"/>
+    </classes>
+  </test>
+  <test name="002 Internet Search">
+    <parameter name="rowNum" value="0"/>
+    <parameter name="eventId" value="None"/>
+    <classes>
+      <class name="com.ilabquality.tests.InternetSearch2"/>
+    </classes>
+  </test>
+</suite>

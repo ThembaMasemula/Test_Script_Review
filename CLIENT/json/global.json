@@ -1,0 +1,13 @@
+{
+	"Global": {
+		"urlSystem": "https://salesdemo.successfactors.eu/sf/start?company=SFPART044297&_s.crb=rA13doRpArES3YuNptebx%252fAgIjc%253d#/login",
+		"urlAddNewEmployee": "https://salesdemo.successfactors.eu/xi/ui/peopleprofile/pages/newhire.xhtml?",
+		"login": "sfadmin",
+		"password": "partTokyoDC2",
+		"country": "United States",
+		"socialSecurity": "563-59-7954",
+		"countryCode": "1",
+		"areaCode": "317",
+		"phone": "555-0174"
+	}
+}

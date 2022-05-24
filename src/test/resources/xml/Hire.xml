@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="12" thread-count="1" verbose="0">
+  <test name="Hire">
+    <parameter name="rowNum" value="16"/>
+    <parameter name="eventId" value="Grover"/>
+    <classes>
+      <class name="com.ilabquality.tests.Hire"/>
+    </classes>
+  </test>
+</suite>

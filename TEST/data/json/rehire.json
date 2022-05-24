@@ -1,0 +1,26 @@
+{
+	"Rehire": {
+		"employee": "harry_smith",
+		"hireDate": "Sep 06, 2020",
+		"addressType": "Home",
+		"eventReason": "Rehire",
+		"eventReasonFinal": "Rehire (REHREH)",
+		"country": "United States",
+		"socialSecurity": "563-59-7956",
+		"countryCode": "1",
+		"areaCode": "317",
+		"phone": "632-555",
+		"position":"3000980",
+		"payScaleType": "Assurances",
+		"payScaleArea": "France",
+		"payGroup": "USA Bi-weekly",
+		"compensationPayComponent": "Hourly Rate",
+		"compensationAmount": "1000",
+		"compensationCurrency":"USD",
+		"compensationFrequency": "Bi-Weekly",
+		"terminationDate": "Sep 04, 2020",
+		"terminationReason":"Termination - Other",
+		"timezone":"Europe/Amsterdam (GMT+02:00)",
+		"terminationComment": "comment"
+	}
+}
